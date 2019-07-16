@@ -1,0 +1,6 @@
+nil = input()
+lis = list(map(int,input().split()))
+b=sum(l)
+lis = sorted(lis,reverse = True)
+lis = map(str,lis)
+print("".join(lis) if b!=0 else "0")
