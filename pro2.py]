@@ -9,3 +9,4 @@ for i in n1:
         x=i[0]-1
         y=i[1]-1
         print(math.gcd(v[x],v[y]))
+
