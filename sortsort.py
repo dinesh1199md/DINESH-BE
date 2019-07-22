@@ -1,4 +1,6 @@
 
+z=int(input())
 y=list(map(int,input().split()))
 y.sort()
-print(*y)
+if (len(y)==z):
+  print(*y)
